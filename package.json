@@ -1,0 +1,21 @@
+{
+  "name": "protractor-type-script-debug",
+  "version": "1.0.0",
+  "author": "geedubey",
+  "license": "MIT", 
+  "scripts": {
+    "prestests": "webdriver-manager update",
+    "tests": "protractor",
+    "tests-compile": "tsc -p tests"
+  },
+  "private": true,
+  "dependencies": {
+    "protractor": "^5.1.1",
+    "protractor-jasmine2-html-reporter": "~0.0.7"
+  },
+  "devDependencies": {    
+    "@types/jasmine": "^2.5.47",
+    "ts-node": "^3.0.2",
+    "typescript": "~2.2.2"
+  }
+}
