@@ -4,7 +4,7 @@
   "author": "geedubey",
   "license": "MIT", 
   "scripts": {
-    "prestests": "webdriver-manager update",
+    "pretests": "webdriver-manager update",
     "tests": "protractor",
     "tests-compile": "tsc -p tests"
   },
